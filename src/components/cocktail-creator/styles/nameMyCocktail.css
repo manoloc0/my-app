@@ -1,0 +1,16 @@
+.name-my-cocktail input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .name-my-cocktail ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .name-my-cocktail li {
+    margin: 5px 0;
+  }
+  

@@ -1,0 +1,44 @@
+.ingredients-table {
+    display: grid;
+    grid-template-columns: auto auto 1fr;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .ingredient-row {
+    display: contents; /* Use contents to keep the grid layout */
+  }
+  
+  .ingredient-name,
+  .ingredient-type {
+    padding: 5px;
+  }
+  
+  .ingredient-name {
+    font-weight: bold;
+  }
+  
+  .ingredient-type {
+    font-style: italic;
+  }
+
+  button {
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .sort-options {
+    margin-bottom: 10px;
+  }
+  
+  .sort-options label {
+    margin-right: 10px;
+  }
+  
+  .sort-options input[type="radio"] {
+    margin-left: 10px;
+    margin-right: 5px;
+  }
+  
